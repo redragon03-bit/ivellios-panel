@@ -495,10 +495,10 @@ ha-icon{--mdc-icon-size:22px;display:inline-flex}
 .nd{position:absolute;width:36px;height:36px;margin:-18px 0 0 -18px;border-radius:50%;padding:0;display:grid;place-items:center;background:var(--sheet);border:2px solid var(--k);color:var(--k);cursor:pointer;--k:var(--green)}
 .nd ha-icon{--mdc-icon-size:20px}
 .nd i{position:absolute;right:-3px;top:-3px;width:10px;height:10px;border-radius:50%;background:var(--k)}
-.nl{position:absolute;transform-origin:0 0;white-space:nowrap;font-size:16px;font-weight:700;color:var(--text);pointer-events:none}
-.nl em{font-style:normal;font-weight:600;color:var(--dim)}
-.s-y{--k:var(--amber)}.s-r{--k:var(--red)}.s-b{--k:var(--blue)}.s-s{--k:var(--purple)}
-.nl.s-y,.nl.s-r,.nl.s-b,.nl.s-s,.nl.s-y em,.nl.s-r em,.nl.s-b em,.nl.s-s em{color:var(--k)}
+.nmc .nl{position:absolute;transform-origin:0 0;white-space:nowrap;font-size:16px;font-weight:700;color:var(--text);pointer-events:none}
+.nmc .nl em{font-style:normal;font-weight:600;color:var(--dim)}
+.nmc .s-y{--k:var(--amber)}.nmc .s-r{--k:var(--red)}.nmc .s-b{--k:var(--blue)}.nmc .s-s{--k:var(--purple)}
+.nmc .nl:is(.s-y,.s-r,.s-b,.s-s),.nmc .nl:is(.s-y,.s-r,.s-b,.s-s) em{color:var(--k)}
 .nd.sel{border-width:4px;box-shadow:0 0 0 6px color-mix(in srgb,var(--k) 25%,transparent)}
 .nh.sel .ring{border-width:4px}
 .nmc .fade{opacity:.12}
